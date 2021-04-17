@@ -2,11 +2,13 @@ package com.rishabhhdesai.calculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
+
     boolean isNewOp = true;
     EditText et_result;
     String op="+";
@@ -17,8 +19,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        et_result=findViewById(R.id.et_result);
+       this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
+        et_result=findViewById(R.id.et_result);
 
     }
 
