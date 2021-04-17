@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">calculator</string>\
+
+    <dimen name="btn_height_80dp">80dp</dimen>
+    <dimen name="btn_width_80dp">80dp</dimen>
+    <dimen name="btn_spacing_2dp">2dp</dimen>
+    <dimen name="layout_weight_1">1</dimen>
+    <dimen name="text_size_40dp">40dp</dimen>
+
+</resources>
